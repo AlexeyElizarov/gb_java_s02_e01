@@ -11,11 +11,11 @@ public class Main {
 
         // check
 
-        TeamDemo();
+        doTeamDemo();
 
     }
 
-    public static void TeamDemo() {
+    public static void doTeamDemo() {
 
         Member[] members = TeamBuilder.build("Huey", "Dewey", "Louie", "Webby");
 
@@ -25,7 +25,7 @@ public class Main {
         team.showResults();
     }
 
-    public static void DocumentDemo() {
+    public static void doDocumentDemo() {
         ExternalDocumentManager manager = new ExternalDocumentManager();
         manager.manage();
     }
